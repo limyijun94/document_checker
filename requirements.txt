@@ -1,0 +1,8 @@
+chainlit
+langchain
+openai
+pathlib
+gitpython
+langchain_openai
+langchain_community
+httpx
