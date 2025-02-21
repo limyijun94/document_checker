@@ -13,8 +13,6 @@ import httpx
 UPLOAD_DIR = "docs"
 
 context = ssl.create_default_context()
-context.load_verify_locations(cafile="./DSOCA50.pem")
-context.load_verify_locations(cafile="./DSOVisibilityCA.pem")
 
 load_dotenv()
 
